@@ -57,7 +57,7 @@ album; // Output: { name: 'The Dark Side of the Moon', copiesSold: 24400000 }
 function isNumber(
   num: number | string
 ): num is number {
-  return typeof n === 'string';
+  return typeof num === 'string';
 }
 const num: string = 'oh no';
 /* This is a bug! Our `isNumber` function is
